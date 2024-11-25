@@ -17,8 +17,6 @@ import com.bd.sitebd.model.Cliente;
 import com.bd.sitebd.model.ClienteService;
 import com.bd.sitebd.model.Tool;
 
-import jakarta.websocket.server.PathParam;
-
 @Controller
 public class CadastroController {
     @Autowired
