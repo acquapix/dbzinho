@@ -19,8 +19,8 @@
     -->
     <form th:action="@{/cadastro}" method="post" th:object="${cliente}"> 
 
-        Nome: <input type="text" th:field="${nome}"><br>
-        cpf: <input type="text" th:field="${cpf}"><br>
+        Nome: <input type="text" th:field="${cliente.nome}"><br>
+        cpf: <input type="text" th:field="${cliente.cpf}"><br>
         
         <input type="submit" value="Cadastrar" name="cadastrar">
     
